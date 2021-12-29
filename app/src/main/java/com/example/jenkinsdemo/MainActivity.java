@@ -38,6 +38,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         // Shortcuts to input fields.
         mNameText = (EditText) findViewById(R.id.userNameInput);
         mDobPicker = (DatePicker) findViewById(R.id.dateOfBirthInput);
