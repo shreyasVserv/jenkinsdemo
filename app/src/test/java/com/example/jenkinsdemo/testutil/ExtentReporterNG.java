@@ -26,7 +26,7 @@ public class ExtentReporterNG implements IReporter {
  
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
     	
-        htmlReporter = new ExtentHtmlReporter("D:\\Vmax\\projects\\Appium\\Demo Repo\\jenkinsdemo\\app"+"\\Reports\\htmlreport.html");
+        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"\\Reports\\htmlreport.html");
        extent = new ExtentReports();
         
         extent.attachReporter(htmlReporter);
