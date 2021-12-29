@@ -22,8 +22,8 @@ public class Appium {
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, device);
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
         capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 14);
-        capabilities.setCapability("appPackage", "com.example.jenkins_testcases_android");
-        capabilities.setCapability("appActivity", "com.example.jenkins_testcases_android.MainActivity");
+        capabilities.setCapability("appPackage", "com.example.jenkinsdemo");
+        capabilities.setCapability("appActivity", "com.example.jenkinsdemo.MainActivity");
         capabilities.setCapability("dontStopAppOnReset", true);
         driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
