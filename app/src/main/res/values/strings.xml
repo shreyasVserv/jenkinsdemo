@@ -15,7 +15,7 @@
   ~ limitations under the License.
   -->
 <resources>
-    <string name="app_name">Basic unittest sample</string>
+    <string name="app_name">jenkinsdemo</string>
     <string name="name_label">Your name:</string>
     <string name="dob_label">Your date of birth:</string>
     <string name="email_label">Your Email address:</string>
