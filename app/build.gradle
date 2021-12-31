@@ -20,8 +20,18 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             firebaseAppDistribution {
                 //releaseNotesFile="/path/to/releasenotes.txt"
-                testers="akash.s@vserv.com, jitendra.y@vserv.com, shreyassingh431@gmail.com"
+                serviceCredentialsFile = "D:\\Vmax\\projects\\Appium\\Demo Repo\\jenkinsdemo\\jenkinsdemo-80205-cc1f47045826.json"
+                testers = "akash.s@vserv.com, jitendra.y@vserv.com, shreyassingh431@gmail.com"
             }
+        }
+
+        debug {
+            firebaseAppDistribution {
+                //releaseNotesFile="/path/to/releasenotes.txt"
+                serviceCredentialsFile = "D:\\Vmax\\projects\\Appium\\Demo Repo\\jenkinsdemo\\jenkinsdemo-80205-cc1f47045826.json"
+                testers = "akash.s@vserv.com, jitendra.y@vserv.com, shreyassingh431@gmail.com"
+            }
+            debuggable true
         }
     }
     compileOptions {
@@ -47,7 +57,7 @@ android {
 
     }
     configurations {
-        all{
+        all {
             exclude group: 'commons-logging', module: 'commons-logging'
             exclude group: 'com.google.guava', module: 'listenablefuture'
         }
@@ -65,15 +75,15 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
 
     implementation platform('com.google.firebase:firebase-bom:29.0.3') // Import the Firebase BoM
-    implementation 'com.google.firebase:firebase-analytics' // Add the dependency for the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics'
+    // Add the dependency for the Firebase SDK for Google Analytics
     // When using the BoM, don't specify versions in Firebase dependencies
-
 
 
     testImplementation 'org.testng:testng:6.14.3'
     implementation 'com.aventstack:extentreports:4.0.0'
     compileOnly('org.seleniumhq.selenium:selenium-java:3.141.59')
-    testImplementation (group: 'io.appium', name: 'java-client', version: '7.3.0')
+    testImplementation(group: 'io.appium', name: 'java-client', version: '7.3.0')
 //    implementation('io.appium:java-client:7.0.0') {
 //        ['org.apache.commons', 'commons-logging',
 //         'junit'].each {
