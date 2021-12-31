@@ -28,6 +28,8 @@ android {
         debug {
             firebaseAppDistribution {
                 //releaseNotesFile="/path/to/releasenotes.txt"
+                artifactType="APK"
+                appId = "1:119216108245:android:84e70a1dd5dff2b01b685c"  //<-- add your appID
                 serviceCredentialsFile = "D:\\Vmax\\projects\\Appium\\Demo Repo\\jenkinsdemo\\jenkinsdemo-80205-cc1f47045826.json"
                 testers = "akash.s@vserv.com, jitendra.y@vserv.com, shreyassingh431@gmail.com"
             }
