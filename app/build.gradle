@@ -13,7 +13,6 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-
     signingConfigs {
         release {
             storeFile file('D:\\Vmax\\projects\\jenkinsdemo_jks.jks')
