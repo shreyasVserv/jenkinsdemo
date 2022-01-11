@@ -25,8 +25,6 @@ public class SharedPreferenceEntry {
 
 
 
-
-
     // Name of the user.
     private final String mName;
 
