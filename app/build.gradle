@@ -3,7 +3,6 @@ apply plugin: 'com.google.firebase.appdistribution'
 
 android {
     compileSdk 31
-
     defaultConfig {
         applicationId "com.vmx.jenkinsdemo"
         minSdk 21
