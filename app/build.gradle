@@ -21,7 +21,7 @@ android {
             keyPassword 'jenkinsdemo123456'           }
 
         release {
-            storeFile file('D:\\Vmax\\projects\\jenkinsdemo_jks.jks')
+            storeFile file('D:\\Vmax\\projects\\Appium\\jenkinsdemo_jks.jks')
             storePassword 'jenkinsdemo123456'
             keyAlias 'jenkinsdemo'
             keyPassword 'jenkinsdemo123456'           }
