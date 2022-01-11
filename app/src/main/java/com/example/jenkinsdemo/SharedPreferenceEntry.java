@@ -23,8 +23,6 @@ import java.util.Calendar;
  */
 public class SharedPreferenceEntry {
 
-
-
     // Name of the user.
     private final String mName;
     // Date of Birth of the user.
