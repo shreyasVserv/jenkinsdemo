@@ -19,11 +19,17 @@ android {
             storePassword 'jenkinsdemo123456'
             keyAlias 'jenkinsdemo'
             keyPassword 'jenkinsdemo123456'           }
+
+        release {
+            storeFile file('D:\\Vmax\\projects\\jenkinsdemo_jks.jks')
+            storePassword 'jenkinsdemo123456'
+            keyAlias 'jenkinsdemo'
+            keyPassword 'jenkinsdemo123456'           }
     }
 
     buildTypes {
         release {
-            //signingConfig signingConfigs.release
+            signingConfig signingConfigs.release
             minifyEnabled false
             debuggable false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
