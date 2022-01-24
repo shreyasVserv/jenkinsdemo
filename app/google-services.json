@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "334074702308",
+    "project_id": "jenkinsdemo-67562",
+    "storage_bucket": "jenkinsdemo-67562.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334074702308:android:12de452647caf7ae8f3ff1",
+        "android_client_info": {
+          "package_name": "com.vmx.jenkinsdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334074702308-bs2nurgs84lbdaqei518jb0f054is887.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vmx.jenkinsdemo",
+            "certificate_hash": "ea126fb24a2c4d336d91804795ce07325fbb1cfb"
+          }
+        },
+        {
+          "client_id": "334074702308-jflrhepidcq9m0bo4rm86oogg7uvq911.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv-r3D3HlfZs8ZUFkgAbjK1y_luBpR-3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334074702308-jflrhepidcq9m0bo4rm86oogg7uvq911.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
