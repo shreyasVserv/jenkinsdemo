@@ -18,23 +18,23 @@ android {
         applicationId "com.vmx.jenkinsdemo"
         minSdk 21
         targetSdk 31
-        versionCode 3
-        versionName "1.3"
+        versionCode 4
+        versionName "1.4"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     signingConfigs {
         release {
-            storeFile file('D:\\Vmax\\projects\\jenkinsdemo_jks.jks')
+            storeFile file('D:\\Vmax\\projects\\Appium\\Demo Repo\\jenkinsdemo\\jenkinsdemo_jks.jks')
             storePassword 'jenkinsdemo123456'
             keyAlias 'jenkinsdemo'
             keyPassword 'jenkinsdemo123456'           }
 
         debug {
-            storeFile file('D:\\Vmax\\projects\\Appium\\jenkinsdemo_jks.jks')
+            storeFile file('D:\\Vmax\\projects\\Appium\\Demo Repo\\jenkinsdemo\\jenkinsdemo_jks.jks')
             storePassword 'jenkinsdemo123456'
             keyAlias 'jenkinsdemo'
-            keyPassword 'jenkinsdemo123456'           }
+            keyPassword 'jenkinsdemo123456'}
     }
 
     buildTypes {
