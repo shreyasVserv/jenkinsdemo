@@ -1,4 +1,4 @@
-package com.example.jenkinsdemo;
+package com.vmx.jenkinsdemo;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterSuite;

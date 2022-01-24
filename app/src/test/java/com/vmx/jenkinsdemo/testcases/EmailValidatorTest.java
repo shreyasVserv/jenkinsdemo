@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.example.jenkinsdemo.testcases;
+package com.vmx.jenkinsdemo.testcases;
 
 
-import com.example.jenkinsdemo.Appium;
-import com.example.jenkinsdemo.EmailValidator;
+import com.vmx.jenkinsdemo.Appium;
+import com.vmx.jenkinsdemo.EmailValidator;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
