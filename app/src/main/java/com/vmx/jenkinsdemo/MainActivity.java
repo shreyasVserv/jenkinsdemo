@@ -63,7 +63,6 @@ public class MainActivity extends Activity {
     }
 
     private void crashlytics() {
-        FirebaseCrashlytics.getInstance().log("message");
         Button crashButton = new Button(this);
         crashButton.setText("Test Crash");
         crashButton.setOnClickListener(new View.OnClickListener() {

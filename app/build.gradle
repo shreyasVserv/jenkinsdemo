@@ -18,9 +18,8 @@ android {
         applicationId "com.vmx.jenkinsdemo"
         minSdk 21
         targetSdk 31
-        versionCode 5
-        versionName "1.5"
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        versionCode 6
+        versionName "1.6"
     }
 
     signingConfigs {
@@ -92,6 +91,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-crashlytics'
     implementation 'com.google.firebase:firebase-analytics' // Declare the dependency for the Firebase SDK for Google Analytics
 
+    //implementation 'com.github.hiteshsondhi88.libffmpeg:FFmpegAndroid:0.2.5'
 
     testImplementation 'org.testng:testng:6.14.3'
     implementation 'com.aventstack:extentreports:4.0.0'

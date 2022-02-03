@@ -4,14 +4,14 @@
 
 <suite name="Suite">
     <listeners>
-        <listener class-name="com.example.jenkinsdemo.testutil.Listeners" />
-        <listener class-name="com.example.jenkinsdemo.testutil.ExtentReporterNG" />
+        <listener class-name="com.vmx.jenkinsdemo.testutil.Listeners" />
+        <listener class-name="com.vmx.jenkinsdemo.testutil.ExtentReporterNG" />
     </listeners>
     <!-- Suite -->
     <test name="Test" thread-count="5">
         <classes>
-            <class name="com.example.jenkinsdemo.testcases.EmailValidatorTest" />
-            <class name="com.example.jenkinsdemo.testcases.TestCases">
+            <class name="com.vmx.jenkinsdemo.testcases.EmailValidatorTest" />
+            <class name="com.vmx.jenkinsdemo.testcases.TestCases">
                 <methods>
                     <include name="emailValidator_EmptyString_ReturnsFalse" />
                 </methods>

@@ -2,6 +2,7 @@ package com.vmx.jenkinsdemo;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -15,7 +16,7 @@ public class Appium {
 
     public static AndroidDriver<AndroidElement> driver;
 
-    @AfterSuite
+    @BeforeSuite
     public AndroidDriver<AndroidElement> setUp() throws Exception {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         String device = System.getProperty("deviceName");

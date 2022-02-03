@@ -1,4 +1,4 @@
-package com.example.jenkinsdemo.testutil;
+package com.vmx.jenkinsdemo.testutil;
 
 import java.util.Calendar;
 import java.util.Date;
